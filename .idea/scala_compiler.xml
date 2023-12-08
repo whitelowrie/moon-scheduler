@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="moon-base,moon-base-abstracts,moon-base-common,moon-base-entity,moon-base-metadata,moon-base-permission,moon-comm,moon-comm-meta,moon-comm-remote,moon-comm-tools,moon-general,moon-general-meta,moon-general-metadata,moon-general-tools,moon-remote,moon-scheduler,moon-server,moon-server-master,moon-server-worker,moon-task,moon-task-buildin,moon-task-flink,moon-task-flink-1-18-1,moon-task-spark,moon-task-spark-2-4-3,moon-task-spark-2.4.3,moon-web,moon-web-api">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-Ylog-classpath" />
+        <parameter value="-target:jvm-1.8" />
+      </parameters>
+    </profile>
+  </component>
+</project>
